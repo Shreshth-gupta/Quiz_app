@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "options": ["London", "Berlin", "Paris", "Madrid"],
+    "correctAnswer": "Paris",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "correctAnswer": "Mars",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "What is 2 + 2?",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": "4",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Van Gogh", "Picasso", "Da Vinci", "Monet"],
+    "correctAnswer": "Da Vinci",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "correctAnswer": "Pacific",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "In which year did World War II end?",
+    "options": ["1944", "1945", "1946", "1947"],
+    "correctAnswer": "1945",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Go", "Gd", "Au", "Ag"],
+    "correctAnswer": "Au",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "question": "Which is the smallest country in the world?",
+    "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+    "correctAnswer": "Vatican City",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "question": "What is the speed of light?",
+    "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
+    "correctAnswer": "300,000 km/s",
+    "difficulty": "hard"
+  },
+  {
+    "id": 10,
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+    "correctAnswer": "William Shakespeare",
+    "difficulty": "easy"
+  }
+]
