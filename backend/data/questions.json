@@ -22,51 +22,86 @@
   },
   {
     "id": 4,
-    "question": "Who painted the Mona Lisa?",
-    "options": ["Van Gogh", "Picasso", "Da Vinci", "Monet"],
-    "correctAnswer": "Da Vinci",
-    "difficulty": "medium"
+    "question": "How many continents are there?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": "7",
+    "difficulty": "easy"
   },
   {
     "id": 5,
-    "question": "What is the largest ocean on Earth?",
-    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
-    "correctAnswer": "Pacific",
+    "question": "What color do you get when you mix red and white?",
+    "options": ["Purple", "Pink", "Orange", "Yellow"],
+    "correctAnswer": "Pink",
     "difficulty": "easy"
   },
   {
     "id": 6,
+    "question": "Who wrote Romeo and Juliet?",
+    "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+    "correctAnswer": "William Shakespeare",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+    "correctAnswer": "Pacific",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
     "question": "In which year did World War II end?",
     "options": ["1944", "1945", "1946", "1947"],
     "correctAnswer": "1945",
     "difficulty": "medium"
   },
   {
-    "id": 7,
+    "id": 9,
     "question": "What is the chemical symbol for gold?",
     "options": ["Go", "Gd", "Au", "Ag"],
     "correctAnswer": "Au",
     "difficulty": "medium"
   },
   {
-    "id": 8,
-    "question": "Which is the smallest country in the world?",
-    "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
-    "correctAnswer": "Vatican City",
+    "id": 10,
+    "question": "Which country has the most natural lakes?",
+    "options": ["Russia", "Canada", "USA", "Finland"],
+    "correctAnswer": "Canada",
     "difficulty": "medium"
   },
   {
-    "id": 9,
-    "question": "What is the speed of light?",
-    "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s", "600,000 km/s"],
-    "correctAnswer": "300,000 km/s",
+    "id": 11,
+    "question": "What is the square root of 144?",
+    "options": ["11", "12", "13", "14"],
+    "correctAnswer": "12",
     "difficulty": "hard"
   },
   {
-    "id": 10,
-    "question": "Who wrote 'Romeo and Juliet'?",
-    "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
-    "correctAnswer": "William Shakespeare",
-    "difficulty": "easy"
+    "id": 12,
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+    "correctAnswer": "Leonardo da Vinci",
+    "difficulty": "hard"
+  },
+  {
+    "id": 13,
+    "question": "What is the smallest country in the world?",
+    "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+    "correctAnswer": "Vatican City",
+    "difficulty": "hard"
+  },
+  {
+    "id": 14,
+    "question": "Which element has the atomic number 1?",
+    "options": ["Helium", "Hydrogen", "Lithium", "Carbon"],
+    "correctAnswer": "Hydrogen",
+    "difficulty": "hard"
+  },
+  {
+    "id": 15,
+    "question": "In Greek mythology, who is the king of the gods?",
+    "options": ["Apollo", "Poseidon", "Hades", "Zeus"],
+    "correctAnswer": "Zeus",
+    "difficulty": "hard"
   }
 ]

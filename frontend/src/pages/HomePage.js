@@ -8,7 +8,9 @@ function HomePage({ setQuestions }) {
   const startQuiz = async (level) => {
     setIsLoading(true);
     try {
-      let response = await fetch('/api/quiz/questions?amount=10&difficulty=' + level);
+      // Replace with your actual Render backend URL
+      const backendUrl = 'https://quiz-app-backend-tkbd.onrender.com';
+      let response = await fetch(backendUrl + '/api/quiz/questions?amount=10&difficulty=' + level);
       let quizData = await response.json();
       setQuestions(quizData.questions);
       goTo('/quiz');

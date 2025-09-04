@@ -4,14 +4,14 @@ const axios = require('axios');
 const myQuestions = require('./data/questions.json');
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
 
 // get questions for quiz
 app.get('/api/quiz/questions', async (req, res) => {
-  let howMany = 10;
+  let howMany =10;
   let level = req.query.difficulty || 'medium';
   
   // first try the trivia api
@@ -68,11 +68,7 @@ app.get('/api/quiz/questions', async (req, res) => {
   res.json({ questions: myQuizData });
 });
 
-// start server locally
-if (process.env.NODE_ENV !== 'production') {
-  app.listen(port, () => {
-    console.log('my quiz server is running on port ' + port);
-  });
-}
-
-module.exports = app;
+// start server
+app.listen(port, () => {
+  console.log('my quiz server is running on port ' + port);
+});
